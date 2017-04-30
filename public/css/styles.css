@@ -1,0 +1,116 @@
+body { 	  
+	/* border: 1px solid Blue; */
+}
+
+.main_container {
+	/* border: 1px solid Red; */
+	width: 500px;
+	font-family: Verdana; 
+	color: Black;
+	padding: 10px;	 
+	margin-top: 20px;
+	margin-bottom: 20px;	
+
+	/* Выравниваем по центру: */ 
+	/* margin: auto; */ 	
+	margin-left: auto;
+	margin-right: auto; 	
+}
+
+.header {
+	border: 1px solid Black;
+	background-color: Gainsboro;
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+	margin-bottom: 20px;		
+}
+
+.alert-error {
+	border: 1px solid DarkRed;  
+	background-color: LightCoral;
+	color: DarkRed;
+	margin-bottom: 20px;
+}
+
+.add_task {
+	border: 1px solid Black;
+	margin-bottom: 20px;
+}
+
+.my_title {
+	/* border: 1px solid Green; */
+	background-color: Gainsboro;
+	text-align: left;	
+	font-size: 20px;
+	padding: 10px;
+}
+
+.add_task form {
+	/* border: 1px solid Red; */
+	padding: 10px;
+}
+
+.add_task .send {
+	border: 1px solid SteelBlue;
+	background-color: SteelBlue;
+	color: White;
+}
+
+/* Меняем цвет кнопки при наведении курсора мышки на неё: */
+.add_task .send:hover { 
+	background-color: Blue; 
+}
+
+.show_tasks {
+	border: 1px solid Black;
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+}
+
+.show_tasks .word_tasks {
+	/* border: 1px solid Blue; */
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px; 
+}
+
+.show_tasks .each_task {
+	/* border: 1px solid Red; */
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.show_tasks .each_task .each_task_name {
+	/* border: 1px solid Green; */
+	margin-bottom: 3px;
+}
+
+.show_tasks .delete {
+	border: 1px solid Brown;
+	background-color: Brown;
+	color: White;
+}
+
+/* Меняем цвет кнопки при наведении курсора мышки на неё: */
+.show_tasks .delete:hover { 
+	background-color: Red; 
+}
+
+.footer {
+	border: 1px solid Black;
+	background-color: Gainsboro;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.footer a {
+	/* border: 1px solid Red; */
+	text-decoration: none;
+	color: Black; 
+} 
+
+.footer a:hover {
+	color: Chocolate;
+}
