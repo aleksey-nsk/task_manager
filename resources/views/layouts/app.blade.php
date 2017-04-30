@@ -15,7 +15,7 @@
 			@yield('content')
 
 			<div class="footer">
-				<a href="https://github.com/aleksey-nsk/" target="_blank">
+				<a href="https://github.com/aleksey-nsk/task_manager" target="_blank">
 					Source cod on GitHub
 				</a>
 			</div>  
