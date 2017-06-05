@@ -1,4 +1,5 @@
 @extends('layouts.app') 
+<!-- подключили наш глобальный лэйаут app (глобальный шаблон app) -->
 
 @section('content')
 

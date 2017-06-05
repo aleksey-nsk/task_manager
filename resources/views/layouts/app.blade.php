@@ -12,7 +12,10 @@
 				{{ $header }}
 			</div>
 			
-			@yield('content')
+			@yield('content')   
+			<!-- выводим секцию content с помощью данной команды.
+			Секция content встраивается в глобальный лэйаут app
+			именно в это место -->		
 
 			<div class="footer">
 				<a href="https://github.com/aleksey-nsk/task_manager" target="_blank">
